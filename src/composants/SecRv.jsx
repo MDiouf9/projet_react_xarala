@@ -11,7 +11,7 @@ import {
   faCircleUser,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
-
+import photo from "../images/RVS 1.png";
 const SecRv = () => {
   const renderAppointment = ({ name, time }) => (
     <div className="w-9/12 h-1 float-right mt-20">
@@ -53,7 +53,7 @@ const SecRv = () => {
             /> */}
             <img
               className="  w-24 mt-10 mb-8"
-              src="/src/images/Ellipse 1.png"
+              src={photo}
               alt=""
             />
           </div>

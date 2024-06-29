@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import photo from "../images/Ellipse 1.png"
 const CompteSec1 = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const CompteSec1 = () => {
           <div className="relative  w-40 h-40 rounded-full overflow-hidden border-8 border-[#1998D3] flex-shrink-0">
             <img
               className="w-full h-full object-cover overflow-hidden"
-              src="/src/images/Ellipse 1.png"
+              src={photo}
               alt="Profile"
             />
           </div>

@@ -8,8 +8,9 @@ import {
   faCalendar,
   faCircleUser,
   faRightToBracket,
-  faPlus,
+ 
 } from "@fortawesome/free-solid-svg-icons";
+import photo from "../images/Ellipse 1.png"
 
 const TableauBord = () => {
   return (
@@ -25,7 +26,7 @@ const TableauBord = () => {
           <div className="flex justify-center   ">
             <img
               className="w-24 my-8"
-              src="/src/images/Ellipse 1.png"
+              src={photo}
               alt="Profile"
             />
           </div>

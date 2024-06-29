@@ -1,4 +1,5 @@
 import React from "react";
+import photo from "../images/RVS 1.png";
 
 const PagesProfile = () => {
   return (
@@ -9,7 +10,7 @@ const PagesProfile = () => {
             <div className=" w-40 h-40 mb-9  rounded-full bg-[#d7eff3] ">
               <img
                 className=" w-40 h-40"
-                src="\src\images\RVS 1.png"
+                src={photo}
                 alt=""
               />
             </div>

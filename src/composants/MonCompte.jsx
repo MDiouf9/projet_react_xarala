@@ -3,6 +3,7 @@ import React from "react";
 // import RV2 from "../pages/RV2";
 import TableauBord from "./TableauBord";
 import CompteSec1 from "./CompteSec1";
+import photo from "../images/RVS 1.png";
 
 const MonCompte = () => {
   return (
@@ -10,7 +11,7 @@ const MonCompte = () => {
       <div className="flex items-center gap-48">
         <div className="w-60 h-40 flex items-center justify-center bg-[#8EDBFF] rounded-br-lg  ">
           <div className="w-40 h-20 bg-[#FFFFFF] rounded flex justify-center">
-            <img className="w-36 h-20" src="\src\images\RVS 1.png" alt="" />
+            <img className="w-36 h-20" src={photo} alt="" />
           </div>
         </div>
         <div className="">

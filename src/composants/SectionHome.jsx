@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import photo from "../images/Confirmed attendance-amico 1.png";
 const SectionHome = () => {
   return (
     <>
@@ -24,7 +25,7 @@ const SectionHome = () => {
         </div>
         <img
           className=" mr-40  w-1/2 text-center "
-          src="\src\images\Confirmed attendance-amico 1.png"
+          src={photo}
           alt=""
         />
       </div>
