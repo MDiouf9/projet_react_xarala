@@ -7,7 +7,7 @@ const Header2 = () => {
     <div className="flex items-center justify-between">
       <div className="w-60 h-40 flex items-center justify-center bg-[#8EDBFF] rounded-br-lg  ">
         <div className="w-40 h-20 bg-[#FFFFFF] rounded flex justify-center">
-          <img className="w-36 h-20" src="\public\images\RVS 1.png" alt="" />
+          <img className="w-36 h-20" src="\src\images\RVS 1.png" alt="" />
         </div>
       </div>
       <div className="relative w-1/2">

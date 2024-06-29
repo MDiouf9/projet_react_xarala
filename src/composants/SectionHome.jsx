@@ -24,7 +24,7 @@ const SectionHome = () => {
         </div>
         <img
           className=" mr-40  w-1/2 text-center "
-          src="\public\images\Confirmed attendance-amico 1.png"
+          src="\src\images\Confirmed attendance-amico 1.png"
           alt=""
         />
       </div>

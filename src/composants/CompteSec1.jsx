@@ -9,7 +9,7 @@ const CompteSec1 = () => {
           <div className="relative  w-40 h-40 rounded-full overflow-hidden border-8 border-[#1998D3] flex-shrink-0">
             <img
               className="w-full h-full object-cover overflow-hidden"
-              src="/public/images/Ellipse 1.png"
+              src="/src/images/Ellipse 1.png"
               alt="Profile"
             />
           </div>

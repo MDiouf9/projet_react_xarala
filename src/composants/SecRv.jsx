@@ -40,9 +40,9 @@ const SecRv = () => {
 
   return (
     <div className="">
-      <h2 className="m-5 text-[#1998D3] text-2xl">
+      <Link to="/Dashbord"><h2 className="m-5 text-[#1998D3] text-2xl">
         <FontAwesomeIcon icon={faTableList} /> Tableau de bord
-      </h2>
+      </h2></Link>
       <div className="mt-8 flex justify-between ">
         <div className="w-64 h-11/12 flex-col text-center rounded-tr-lg bg-[#8EDBFF]">
           <div className="flex justify-center items-center">
@@ -53,7 +53,7 @@ const SecRv = () => {
             /> */}
             <img
               className="  w-24 mt-10 mb-8"
-              src="/public/images/Ellipse 1.png"
+              src="/src/images/Ellipse 1.png"
               alt=""
             />
           </div>

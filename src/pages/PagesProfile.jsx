@@ -9,7 +9,7 @@ const PagesProfile = () => {
             <div className=" w-40 h-40 mb-9  rounded-full bg-[#d7eff3] ">
               <img
                 className=" w-40 h-40"
-                src="\public\images\RVS 1.png"
+                src="\src\images\RVS 1.png"
                 alt=""
               />
             </div>

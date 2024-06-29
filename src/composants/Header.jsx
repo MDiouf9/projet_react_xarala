@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className=" h-20 flex items-center justify-between  bg-[#FCFCFC]">
       <Link to="/Home">
-        <img src="\public\images\RVS 1.png" alt="" />
+        <img src="\src\images\RVS 1.png" alt="" />
       </Link>
       <ul className="flex gap-4">
         <li>

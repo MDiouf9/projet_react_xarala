@@ -25,7 +25,7 @@ const TableauBord = () => {
           <div className="flex justify-center   ">
             <img
               className="w-24 my-8"
-              src="/public/images/Ellipse 1.png"
+              src="/src/images/Ellipse 1.png"
               alt="Profile"
             />
           </div>

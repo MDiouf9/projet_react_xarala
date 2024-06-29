@@ -10,7 +10,7 @@ const Dashbord = () => {
       <div className="flex items-center justify-between">
         <div className="w-60 h-40 flex items-center justify-center bg-[#8EDBFF] rounded-br-lg  ">
           <div className="w-40 h-20 bg-[#FFFFFF] rounded flex justify-center">
-            <img className="w-36 h-20" src="\public\images\RVS 1.png" alt="" />
+            <img className="w-36 h-20" src="\src\images\RVS 1.png" alt="" />
           </div>
         </div>
         <div className=" flex-col items-center">
@@ -45,7 +45,7 @@ const Dashbord = () => {
                       <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
                         <img
                           className="w-9 h-9 mt-1 "
-                          src="\public\images\RVS 1.png"
+                          src="\src\images\RVS 1.png"
                           alt=""
                         />
                       </div>
@@ -65,7 +65,7 @@ const Dashbord = () => {
                       <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
                         <img
                           className="w-9 h-9 mt-1 "
-                          src="\public\images\RVS 1.png"
+                          src="\src\images\RVS 1.png"
                           alt=""
                         />
                       </div>
@@ -87,7 +87,7 @@ const Dashbord = () => {
                         <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
                           <img
                             className="w-9 h-9 mt-1 "
-                            src="\public\images\RVS 1.png"
+                            src="\src\images\RVS 1.png"
                             alt=""
                           />
                         </div>
@@ -107,7 +107,7 @@ const Dashbord = () => {
                         <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
                           <img
                             className="w-9 h-9 mt-1 "
-                            src="\public\images\RVS 1.png"
+                            src="\src\images\RVS 1.png"
                             alt=""
                           />
                         </div>
