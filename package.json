@@ -1,5 +1,5 @@
 {
-  "homepage":"https://mdiouf9.github.io/react-projet-xarala/",
+  "homepage": "https://mdiouf9.github.io/react-projet-xarala/",
   "name": "my-vue-app",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy" : "npm install -D gh-pages"
+    "deploy": "npm install -D gh-pages"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
