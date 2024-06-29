@@ -45,7 +45,7 @@ const Dashbord = () => {
                       <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
                         <img
                           className="w-9 h-9 mt-1 "
-                          src="\src\images\RVS 1.png"
+                          src={photo}
                           alt=""
                         />
                       </div>
@@ -71,9 +71,9 @@ const Dashbord = () => {
                       </div>
                     </div>
                     <div className="text-center mt-5">
-                      <h1 className="text-white text-2xl">
+                    <Link to="/RendezVous"> <h1 className="text-white text-2xl">
                         Listes des rendez-vous
-                      </h1>
+                      </h1></Link> 
                     </div>
                   </div>
                 </div>
@@ -113,9 +113,9 @@ const Dashbord = () => {
                         </div>
                       </div>
                       <div className="text-center mt-5">
-                        <h1 className="text-white text-2xl">
+                      <Link to="/Patient"><h1 className="text-white text-2xl">
                           Listes des Patients
-                        </h1>
+                        </h1></Link> 
                       </div>
                     </div>
                   </div>

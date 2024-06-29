@@ -14,12 +14,12 @@ const Header = () => {
             <a href="/Home">ACCUEIL</a>
           </Link>
         </li>
-        <li className="flex">
+        <Link to="/RendezVous"><li className="flex">
           <a href="/RendezVous">MES RENDEZ-VOUS</a>
-        </li>
-        <li>
+        </li></Link>
+        <Link to="/MonCompte"><li>
           <a href="/MonCompte">MON COMPTE</a>
-        </li>
+        </li></Link>
       </ul>
       <div className="mr-8">
         <Link to="/Connecter">
