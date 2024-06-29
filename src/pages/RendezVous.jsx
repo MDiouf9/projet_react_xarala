@@ -6,7 +6,7 @@ const RendezVous = () => {
   return (
     <div>
       <Header2 />
-      <SecRv />
+      <Secimport photo from "../images/RVS 1.png";Rv />
     </div>
   );
 };
