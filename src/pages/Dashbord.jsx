@@ -4,13 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 import TableauBord from "../composants/TableauBord";
 import photo from "../images/RVS 1.png";
+import lipo from "../images/Ellipse 1.png";
 const Dashbord = () => {
   return (
     <div>
       <div className="flex items-center justify-between">
         <div className="w-60 h-40 flex items-center justify-center bg-[#8EDBFF] rounded-br-lg  ">
           <div className="w-40 h-20 bg-[#FFFFFF] rounded flex justify-center">
-            <img className="w-36 h-20" src={photo}  alt=""/>
+            <img className="w-36 h-20" src={photo} alt="" />
           </div>
         </div>
         <div className=" flex-col items-center">
@@ -24,7 +25,7 @@ const Dashbord = () => {
         </div>
         <div className="flex items-center gap-3">
           <FontAwesomeIcon icon={faBell} style={{ fontSize: "20px" }} />
-          <img className="mr-10" src={photo} alt="" />
+          <img className="mr-10" src={lipo} alt="" />
         </div>
       </div>
       <div>
@@ -43,17 +44,16 @@ const Dashbord = () => {
                         <h2 className="text-center p-2">98</h2>
                       </div>
                       <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
-                        <img
-                          className="w-9 h-9 mt-1 "
-                          src={photo}
-                          alt=""
-                        />
+                        <img className="w-9 h-9 mt-1 " src={photo} alt="" />
                       </div>
                     </div>
                     <div className="text-center ">
-                    <Link to="/RendezVous"> <h1 className="text-white text-2xl mt-5">
-                        Listes des rendez-vous
-                      </h1></Link> 
+                      <Link to="/RendezVous">
+                        {" "}
+                        <h1 className="text-white text-2xl mt-5">
+                          Listes des rendez-vous
+                        </h1>
+                      </Link>
                     </div>
                   </div>
                   {/* deuxieme div */}
@@ -63,17 +63,16 @@ const Dashbord = () => {
                         <h2 className="text-center p-2">98</h2>
                       </div>
                       <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
-                        <img
-                          className="w-9 h-9 mt-1 "
-                          src={photo}
-                          alt=""
-                        />
+                        <img className="w-9 h-9 mt-1 " src={photo} alt="" />
                       </div>
                     </div>
                     <div className="text-center mt-5">
-                    <Link to="/RendezVous"> <h1 className="text-white text-2xl">
-                        Listes des rendez-vous
-                      </h1></Link> 
+                      <Link to="/RendezVous">
+                        {" "}
+                        <h1 className="text-white text-2xl">
+                          Listes des rendez-vous
+                        </h1>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -85,17 +84,15 @@ const Dashbord = () => {
                           <h2 className="text-center p-2">62</h2>
                         </div>
                         <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
-                          <img
-                            className="w-9 h-9 mt-1 "
-                            src={photo}
-                            alt=""
-                          />
+                          <img className="w-9 h-9 mt-1 " src={photo} alt="" />
                         </div>
                       </div>
                       <div className="text-center mt-5">
-                       <Link to="/Patient"><h1 className="text-white text-2xl">
-                          Listes des Patients
-                        </h1></Link> 
+                        <Link to="/Patient">
+                          <h1 className="text-white text-2xl">
+                            Listes des Patients
+                          </h1>
+                        </Link>
                       </div>
                     </div>
                     {/* deuxieme div */}
@@ -105,17 +102,15 @@ const Dashbord = () => {
                           <h2 className="text-center p-2">62</h2>
                         </div>
                         <div className=" relative top-1 left-8 mt-4 items-center w-[34px] h-[34px] rounded-full bg-[#FFFFFF] ">
-                          <img
-                            className="w-9 h-9 mt-1 "
-                            src={photo}
-                            alt=""
-                          />
+                          <img className="w-9 h-9 mt-1 " src={photo} alt="" />
                         </div>
                       </div>
                       <div className="text-center mt-5">
-                      <Link to="/Patient"><h1 className="text-white text-2xl">
-                          Listes des Patients
-                        </h1></Link> 
+                        <Link to="/Patient">
+                          <h1 className="text-white text-2xl">
+                            Listes des Patients
+                          </h1>
+                        </Link>
                       </div>
                     </div>
                   </div>
