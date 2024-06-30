@@ -11,7 +11,7 @@ import {
   faCircleUser,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
-import photo from "../images/Ellipse 1.png"
+import photo from "../images/Ellipse 1.png";
 const SecRv = () => {
   const renderAppointment = ({ name, time }) => (
     <div className="w-9/12 h-1 float-right mt-20">
@@ -40,9 +40,11 @@ const SecRv = () => {
 
   return (
     <div className="">
-      <Link to="/Dashbord"><h2 className="m-5 text-[#1998D3] text-2xl">
-        <FontAwesomeIcon icon={faTableList} /> Tableau de bord
-      </h2></Link>
+      <Link to="/Dashbord">
+        <h2 className="m-5 text-[#1998D3] text-2xl">
+          <FontAwesomeIcon icon={faTableList} /> Tableau de bord
+        </h2>
+      </Link>
       <div className="mt-8 flex justify-between ">
         <div className="w-64 h-11/12 flex-col text-center rounded-tr-lg bg-[#8EDBFF]">
           <div className="flex justify-center items-center">
@@ -51,11 +53,7 @@ const SecRv = () => {
               src="/public/images/Ellipse 1.png"
               alt=""
             /> */}
-            <img
-              className="  w-24 mt-10 mb-8"
-              src={photo}
-              alt=""
-            />
+            <img className="  w-24 mt-10 mb-8" src={photo} alt="" />
           </div>
           <ul>
             {/* <li>
@@ -70,18 +68,23 @@ const SecRv = () => {
                 icon={faHouse}
                 style={{ fontSize: "13px", color: "#1998D3" }}
               />
-              <Link to="/Home"><a className="pl-1 ml-2 text-white" href="/Home">
-                Accueil
-              </a></Link>
+              <Link to="/Home">
+                <a className="pl-1 ml-2 text-white" href="/Home">
+                  Accueil
+                </a>
+              </Link>
             </li>
             <li className="mb-8">
               <FontAwesomeIcon
                 icon={faCalendar}
                 style={{ fontSize: "13px", color: "#1998D3" }}
               />
-             <Link to="/RendezVous"><a className="pl-1 ml-2 text-white" href="/RendezVous">
-                Mes rendez-vous
-              </a></Link> 
+              <Link to="/RendezVous">
+                {" "}
+                <a className="pl-1 ml-2 text-white" href="">
+                  Mes rendez-vous
+                </a>
+              </Link>
             </li>
             <li className="mb-8">
               <FontAwesomeIcon
@@ -115,9 +118,11 @@ const SecRv = () => {
                   icon={faRightToBracket}
                   style={{ fontSize: "13px", color: "#1998D3" }}
                 />{" "}
-                <a className="text-white pl-1 ml-2" href="#">
-                  Déconnexion
-                </a>
+                <Link to="/Home">
+                  <a className="text-white pl-1 ml-2" href="#">
+                    Déconnexion
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
