@@ -70,18 +70,18 @@ const SecRv = () => {
                 icon={faHouse}
                 style={{ fontSize: "13px", color: "#1998D3" }}
               />
-              <a className="pl-1 ml-2 text-white" href="/Home">
+              <Link to="/Home"><a className="pl-1 ml-2 text-white" href="/Home">
                 Accueil
-              </a>
+              </a></Link>
             </li>
             <li className="mb-8">
               <FontAwesomeIcon
                 icon={faCalendar}
                 style={{ fontSize: "13px", color: "#1998D3" }}
               />
-              <a className="pl-1 ml-2 text-white" href="/RendezVous">
+             <Link to="/RendezVous"><a className="pl-1 ml-2 text-white" href="/RendezVous">
                 Mes rendez-vous
-              </a>
+              </a></Link> 
             </li>
             <li className="mb-8">
               <FontAwesomeIcon
